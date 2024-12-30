@@ -1,0 +1,20 @@
+/* Đặt lại các thuộc tính CSS cho thanh điều hướng */
+.custom-navbar .navbar,
+.custom-navbar .navbar * {
+    all: unset;
+    all: revert;
+}
+
+/* Định kiểu lại cho thanh điều hướng */
+.custom-navbar .navbar {
+    background-color: #fff; /* Ví dụ: màu nền */
+    padding: 10px; /* Ví dụ: khoảng cách */
+}
+
+.custom-navbar .navbar .navbar-brand {
+    color: #000; /* Ví dụ: màu thương hiệu */
+}
+
+.custom-navbar .navbar .navbar-nav .nav-link {
+    color: #000; /* Ví dụ: màu liên kết */
+}
