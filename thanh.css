@@ -1,0 +1,110 @@
+*{margin: 0px;}
+
+/* body {
+    padding: 20px;
+    background-color: #f1f1f1;
+} */
+.form-in1 {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.137);
+}
+.form-in1 h2 {
+    padding: 10px;
+    color: #333;
+    text-align: center;
+}
+/*  */
+/*  */
+.header_form{
+    height: 60px;
+    background: orange;
+    padding: 0px ;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.137);
+}
+.center-form1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+}
+.center-form1 td{
+    width: 130px;
+}
+input[type="submit"], button {
+    width: auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4c6eae;
+    color: white;
+    cursor: pointer;
+}
+input[type="submit"]:hover, button:hover {
+    background-color: #4066ad;
+    border: 1px solid #4066ad;
+}
+
+input[type="text"], textarea, input[type="number"],input[type="date"],select,input[type="email"]{
+    width: 300px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    
+}
+input[type="text"]:focus, textarea:focus, input[type="number"]:focus,input[type="date"]:focus,select:focus,input[type="email"]:focus {
+    border-color: rgb(10, 99, 201); /* Đặt viền xanh khi input được focus */
+    box-shadow: 0 0 5px rgb(10, 99, 201); /* Thêm ánh sáng xanh */
+    border: 1px solid #ccc;
+    outline: none; /* Loại bỏ outline khi input được focus */
+}
+/* .select{
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+} */
+input[type="text"]:hover, textarea:hover, input[type="number"]:hover,input[type="date"]:hover,
+textarea:hover, select:hover, input[type="email"]:hover{
+    background-color: #f1f1f1;
+}
+
+.link{
+    width: auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4c6eae;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+.link:hover{
+    background-color: #4066ad;
+    border: 1px solid #4066ad;
+    color: white;
+    text-decoration: none;
+}
+.dd4 {
+    background-image: url('Anh/3d-magnifier.png'); /* Đường dẫn đến hình ảnh nút tìm kiếm */
+    background-repeat: no-repeat;
+    background-position: center; /* Để hình ảnh hiển thị ở giữa nút */
+    border: 1; /*  đường viền của nút */
+    padding-left: 30px; /* Để tạo khoảng cách giữa hình ảnh và nội dung của nút */
+    background-size: 20px 20px; /* Kích thước mới của hình ảnh nền */
+    width: 45px; 
+    height: 29px; 
+    background-color: white
+}
+label{
+    width: 100px;
+}
+/*  */
+

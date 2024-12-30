@@ -1,0 +1,29 @@
+/* tìm kiếm */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+table, th, td {
+    border: 1px solid #ddd;
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+tr:hover {
+    background-color: #e0eef5;
+}
+.tacvu a {
+    width: auto;
+    background-color: #d65753;
+    color: white;
+    /* border: 1px solid black; */
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.tacvu a:hover {
+    background-color: #c9302c;
+}
